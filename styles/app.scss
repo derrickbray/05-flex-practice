@@ -9,3 +9,23 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 .full-page {
 
 }
+.container {
+  max-width: 60rem;
+  margin: auto;
+}
+.options {
+  background: pink;
+
+  &__title{
+  margin: 0;
+}
+  &__flex{
+display: flex;
+justify-content: space-between;
+align-content: center;
+}
+  &__tab-list{
+  align-content: center;
+}
+
+}
