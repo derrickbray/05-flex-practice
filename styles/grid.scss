@@ -1,0 +1,16 @@
+.grid {
+display: flex;
+
+}
+.grid__boxes {
+  display: flex;
+  // width: calc(100% / 5 - 2rem);
+  margin-top: 5rem;
+
+}
+
+.grid__boxes-ind {
+  margin: 1rem;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+
+}
