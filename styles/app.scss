@@ -8,21 +8,27 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'hero';
 
 .grid {
+display: flex;
 
-.__boxes{
+.__boxes {
+  display: flex;
+  width: calc(100% / 5 - 2rem);
 
-}
-.-ind {
-
-.__img{
-
-}
-.__title{
 
 }
+}
 
-.__txt{
+.grid__boxes-ind {
+
+.__img {
 
 }
+
+.__title {
+
+}
+
+.__txt {
+
 }
 }
