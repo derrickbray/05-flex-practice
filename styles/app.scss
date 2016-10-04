@@ -7,31 +7,22 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'nav';
 @import 'hero';
 
-.flexbox__hero {
-  display: flex;
-  justify-content: center;
-  padding: 5rem 0;
-  background: black;
-  color: white;
+.grid {
+
+.__boxes{
+
+}
+.-ind {
+
+.__img{
+
+}
+.__title{
+
 }
 
-.absolute__hero {
-  display: block;
-  position: relative;
-  width: 100%;
-  margin: 0;
-  background: maroon;
-  color: white;
-  padding: 5rem 0;
+.__txt{
 
-  &-txt {
-    position: absolute;
-    top: 50%;
-    transform: translate(0);
-    text-align: center;
-    padding: 0;
-    width: 100%;
-    margin: 0;
-
-  }
+}
+}
 }
