@@ -1,11 +1,12 @@
 .grid {
-display: flex;
+  display: flex;
 
 }
+
 .grid__boxes {
   display: flex;
   // width: calc(100% / 5 - 2rem);
-  margin-top: 5rem;
+  margin: 5rem -1rem;
 
 }
 
