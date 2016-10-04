@@ -15,14 +15,17 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   // justify-content: space-between;
   color: white;
 }
-.footer__content{}
+.footer__content{
+  display: flex;
+  justify-content: space-around;
+}
 .footer__copy {
   font-size: 0.8rem;
   text-align: left;
-  background: black;
+  vertical-align: middle;
 }
 
 .footer__navlist {
   display: block;
-  background: blue;
+  padding: 0;
 }
