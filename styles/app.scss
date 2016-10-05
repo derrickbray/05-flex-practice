@@ -8,24 +8,8 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'hero';
 @import 'grid';
 @import 'card';
+@import 'footer';
 
-.footer {
-  background: grey;
-  // display: flex;
-  // justify-content: space-between;
+a {
   color: white;
-}
-.footer__content{
-  display: flex;
-  justify-content: space-around;
-}
-.footer__copy {
-  font-size: 0.8rem;
-  text-align: left;
-  vertical-align: middle;
-}
-
-.footer__navlist {
-  display: block;
-  padding: 0;
 }

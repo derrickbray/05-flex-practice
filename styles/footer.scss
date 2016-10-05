@@ -1,0 +1,35 @@
+.footer {
+  background: grey;
+  //  display: flex;
+  //  justify-content: space-between;
+  color: white;
+}
+
+.footer__content {
+  background: blue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__copy {
+  font-size: 0.8rem;
+  text-align: left;
+  vertical-align: middle;
+  padding-top: 1rem;
+}
+
+.footer__navlist {
+  display: block;
+  padding-right: 3rem;
+  color: white;
+  list-style: none;
+}
+
+.footer__navlist-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: white;
+}
