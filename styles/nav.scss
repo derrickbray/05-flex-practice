@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+
 }
 
 body {
@@ -8,7 +9,7 @@ body {
 }
 
 .full-page {
-  margin: 0;
+  margin: 1rem 0 0;
 }
 
 .container {
@@ -17,11 +18,11 @@ body {
 }
 
 .options {
-  background: pink;
+  background: $c-pink;
 
   &__title {
     margin: 0;
-    color: white;
+    color: $c-white;
 
   }
 

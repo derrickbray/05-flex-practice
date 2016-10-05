@@ -3,7 +3,7 @@
   justify-content: center;
   padding: 5rem 0;
   background: black;
-  color: white;
+  color: $c-white;
 }
 
 .absolute__hero {
@@ -11,8 +11,8 @@
   position: relative;
   width: 100%;
   margin: 0;
-  background: maroon;
-  color: white;
+  background: $c-maroon;
+  color: $c-white;
   padding: 5rem 0;
 
   &-txt {

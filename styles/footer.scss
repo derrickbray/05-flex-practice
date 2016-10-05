@@ -1,12 +1,10 @@
 .footer {
-  background: grey;
-  //  display: flex;
-  //  justify-content: space-between;
-  color: white;
+  background: $c-grey;
+  color: $c-white;
 }
 
 .footer__content {
-  background: blue;
+
   display: flex;
   justify-content: space-between;
 }
@@ -21,7 +19,7 @@
 .footer__navlist {
   display: block;
   padding-right: 3rem;
-  color: white;
+  color: $c-white;
   list-style: none;
 }
 
@@ -31,5 +29,5 @@
 }
 
 a {
-  color: white;
+  color: $c-white;
 }

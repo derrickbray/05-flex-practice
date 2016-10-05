@@ -1,6 +1,11 @@
 // @import 'yoga-sass/assets/yoga';
 // @import 'normalize-css/normalize';
 
+$c-grey: #716c70;
+$c-white: #fff;
+$c-blue: #0e10dd;
+$c-pink: #b9240a;
+$c-maroon: #572543;
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
@@ -11,5 +16,5 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'footer';
 
 a {
-  color: white;
+  color: $c-white;
 }
