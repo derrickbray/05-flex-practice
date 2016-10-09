@@ -1,7 +1,6 @@
 .grid {
   display: flex;
 
-
 }
 
 .grid__boxes {
@@ -35,9 +34,9 @@
 
 .grid__boxes-ind {
   display: flex;
+  flex-basis: calc(100% / 5 - 2rem);
   flex-direction: column;
   flex-wrap: wrap;
-  flex-basis: calc(100% / 5 - 2rem);
   min-width: 8rem;
   margin: 1rem;
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
