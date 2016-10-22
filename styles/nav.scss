@@ -1,11 +1,9 @@
 * {
   box-sizing: border-box;
-
 }
 
 body {
   margin: 0;
-
 }
 
 .full-page {
@@ -24,13 +22,12 @@ body {
     margin: 0;
     float: left;
     color: $c-white;
-
   }
 
   &__flex {
-    display: inline-block;
     align-content: center;
     width: 100%;
+    overflow: auto;
   }
 
   &__tab-list {
