@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.full-page {
+  margin: 1rem 0 0;
+}
+
+.container {
+  max-width: 55rem;
+  margin: auto;
+}
+
+.options {
+  background: $c-pink;
+
+  &__title {
+    margin: 0;
+    float: left;
+    color: $c-white;
+  }
+
+  &__flex {
+    align-content: center;
+    width: 100%;
+    overflow: auto;
+  }
+
+  &__tab-list {
+    padding: 1rem;
+    float: right;
+    vertical-align: center;
+  }
+}

@@ -1,0 +1,33 @@
+.footer {
+  background: $c-grey;
+  color: $c-white;
+}
+
+.footer__content {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__copy {
+  font-size: 0.8rem;
+  text-align: left;
+  vertical-align: middle;
+  padding-top: 1rem;
+}
+
+.footer__navlist {
+  display: block;
+  padding-right: 3rem;
+  color: $c-white;
+  list-style: none;
+}
+
+.footer__navlist-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: $c-white;
+}

@@ -1,0 +1,29 @@
+.flexbox__hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  background: black;
+  color: $c-white;
+}
+
+.absolute__hero {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 5rem 0;
+  background: $c-maroon;
+  color: $c-white;
+
+  &-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+  }
+}
